@@ -1,3 +1,5 @@
+require 'yaml'
+
 module Flender
   class Config
 
@@ -5,7 +7,12 @@ module Flender
     #
     # @return [{Symbol => String/Fixnum}] The configuration hash
     def self.read
-      @conf = {}
+      begin
+        @conf = YAML.load_file("conf/flender.conf.yaml")
+      rescue
+        @conf = {}
+      end
+
 
       @conf
     end

@@ -4,7 +4,7 @@ source "http://rubygems.org"
 #   gem "activesupport", ">= 2.3.5"
 
 gem "git"
-gem "github"
+gem "rest-client"
 gem "json"
 
 
