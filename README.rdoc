@@ -1,6 +1,20 @@
 = flender
 
-Description goes here.
+flender is a github bot looking for vulnerabilities in opensource projects. The
+goal here is to provide a code review for hackers out there, giving a proper
+branch full of security suggestions to compare with the original. They will
+decide if to apply the pull request fixing their code or not. 
+
+We just want to save the world.
+
+== Use this
+
+Must be written...
+
+== Credits
+I started flender inspired by WhiteBot bot by Rich Jones - [rich@gun.io]. I
+choose a major rewrite since I don't know python and I like more ruby and since
+I want to integrate flender with aurora and codesake.com portal.
 
 == Contributing to flender
  
