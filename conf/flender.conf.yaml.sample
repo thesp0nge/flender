@@ -1,0 +1,6 @@
+auth:
+  username: "putyourgithubuserhere"
+  password: "putyourgithubpasswordhere"
+
+flender:
+  verbose: false
